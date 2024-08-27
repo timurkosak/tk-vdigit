@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tk-vdigit 6 Digit OPT Code Input</title>
+    <style type="text/css">
+        *,html{font-family:"arial";box-sizing:border-box}
+        body{background-color:#fafafa;line-height:1.6}
+        .container{margin:150px auto;max-width:960px}
+    </style>
+    
+</head>
+
+<body>
+    
+    <style type="text/css">
+        .tk-vdigit {display: flex;justify-content: space-between;align-items: center;width: 100%;max-width: 400px;}
+        .tk-vdigit .tk-vinput {width:50px;height:50px;text-align:center;}
+    </style>
+
+    <div class="container">
+        <h1>tk-vdigit 6 Digit OPT Code Input</h1>
+        <form>
+            <input type="text" name="validcode" class="pin-code" maxlength="6"><br />
+            <input type="submit" class="btn" value="Verify" />
+        </form>
+    </div>
+
+    <script src="./tk-vDigitInput.js"></script>
+    <script type="text/javascript">
+        new vDigitInput('.pin-code');
+    </script>
+
+</body>
+</html>
