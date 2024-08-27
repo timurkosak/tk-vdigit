@@ -16,8 +16,8 @@ A powered 6 Digit OPT Code input field creator. Perfect for verification codes, 
 
 ```
 
-**Notes...**
-• You MUST set the `maxlength` parameter, otherwise the plugin won't know how many cells to create
-• Your forms should work normally - data will be automatically filled into the .pin-code field
-• Paste works
-• You need to create your own CSS
+**Notes**
+- You MUST set the `maxlength` parameter, otherwise the plugin won't know how many cells to create
+- Your forms should work normally - data will be automatically filled into the .pin-code field
+- Paste works
+- You need to create your own CSS
