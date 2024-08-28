@@ -26,6 +26,7 @@ class vDigitInput {
 
     createInputs() {
         // Hide the original input
+        this.inputElement.type = 'hidden';
         this.inputElement.style.display = 'none';
 
         // Create new inputs
